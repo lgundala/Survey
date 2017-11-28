@@ -1,0 +1,23 @@
+NatHaz Survey Application - Database access
+
+SUrvey_Upload
+
+Simple java GUI to upload .tsv file for student and instructor responses.
+The following order is to be followed while uploading files:
+1. Instructor Form Responses
+2. Student Surey Link Sheet
+3. Student Form Responses
+
+
+DBConnect2
+
+This will handle on how to insert data into MySql database of nathaz account accordingly.
+This will update 5 tables in the database.
+
+
+
+Future modifications:
+1. add timestamp values into database tables.
+2. Check for already available data and add only what is not present in database.
+3. Include instructor choices in 'Instructor Survey' table.
+4. More pleasible GUI
